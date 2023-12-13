@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComposeAnimationPlayground</string>
+    <string name="weather">Weather</string>
+    <string name="pizza">Pizza</string>
+</resources>
