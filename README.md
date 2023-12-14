@@ -1,4 +1,4 @@
-![Compose Animation](https://github.com/abualgait/ComposeAnimation/assets/38107393/9894ddef-2ed1-4d28-b5c3-510fd9103a26)
+![Compose Animation2](https://github.com/abualgait/ComposeAnimation/assets/38107393/1a9930f3-648d-4ed2-b54d-265cd8deca85)
 
 # Compose Animation Showcase 🚀
 
