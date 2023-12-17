@@ -30,6 +30,7 @@ import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.testing.composeanimationplayground.ui.daynight.navigation.dayNightAnimationScreen
 import com.testing.composeanimationplayground.ui.navigation.AppTopLevelNavigation
 import com.testing.composeanimationplayground.ui.navigation.TOP_LEVEL_DESTINATIONS
 import com.testing.composeanimationplayground.ui.navigation.TopLevelDestination
@@ -80,6 +81,7 @@ fun MyApp() {
 
                 weatherAnimationScreen()
                 pizzaAnimationScreen()
+                dayNightAnimationScreen()
             }
         }
     }

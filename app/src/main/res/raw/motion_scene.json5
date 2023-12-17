@@ -1,0 +1,429 @@
+{
+  ConstraintSets: {
+    start: {
+      sun_moon: {
+        width: 60,
+        height: 60,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        top: [
+          'parent',
+          'top',
+          20
+        ],
+        custom: {
+          background: '#FFEB3B'
+        }
+      },
+      tree: {
+        width: 100,
+        height: 200,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          26
+        ]
+      },
+      car: {
+        width: 150,
+        height: 150,
+        end: [
+          'parent',
+          'end',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          20
+        ]
+      },
+      road: {
+        width: 'parent',
+        height: 130,
+        end: [
+          'parent',
+          'end'
+        ],
+        bottom: [
+          'parent',
+          'bottom'
+        ],
+        start: [
+          'parent',
+          'start'
+        ],
+      },
+      mountain: {
+        width: 'parent',
+        height: 200,
+        end: [
+          'parent',
+          'end'
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          26
+        ],
+        start: [
+          'parent',
+          'start'
+        ],
+      },
+      cloud: {
+        width: 120,
+        height: 120,
+        end: [
+          'parent',
+          'end',
+          20
+        ],
+        top: [
+          'parent',
+          'top',
+          20
+        ]
+      },
+      birds: {
+        width: 80,
+        height: 80,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        top: [
+          'parent',
+          'top',
+          20
+        ]
+      },
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+        bottom: [
+          'parent',
+          'bottom'
+        ],
+        custom: {
+          background: '#03A9F4',
+          background_end: '#FFFFFF',
+        }
+      },
+      stars: {
+        width: 'parent',
+        height: 300,
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+      },
+      street_lamp: {
+        width: 100,
+        height: 150,
+        end: [
+          'parent',
+          'end',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          65
+        ],
+        custom: {
+          lamp_light: '#00FFFFFF'
+        }
+      }
+    },
+    end: {
+      street_lamp: {
+        width: 100,
+        height: 150,
+        end: [
+          'parent',
+          'end',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          65
+        ],
+        custom: {
+          lamp_light: '#FFEB3B'
+        }
+      },
+      stars: {
+        width: 'parent',
+        height: 300,
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+      },
+      tree: {
+        width: 100,
+        height: 200,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          25
+        ]
+      },
+      road: {
+        width: 'parent',
+        height: 130,
+        end: [
+          'parent',
+          'end'
+        ],
+        bottom: [
+          'parent',
+          'bottom'
+        ],
+        start: [
+          'parent',
+          'start'
+        ],
+      },
+      mountain: {
+        width: 'parent',
+        height: 200,
+        end: [
+          'parent',
+          'end'
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          26
+        ],
+        start: [
+          'parent',
+          'start'
+        ],
+      },
+      sun_moon: {
+        width: 45,
+        height: 45,
+        end: [
+          'parent',
+          'end',
+          20
+        ],
+        top: [
+          'parent',
+          'top',
+          20
+        ],
+        custom: {
+          background: '#FFFFFF'
+        }
+      },
+      cloud: {
+        width: 120,
+        height: 120,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        top: [
+          'parent',
+          'top',
+          20
+        ]
+      },
+      car: {
+        width: 150,
+        height: 150,
+        start: [
+          'parent',
+          'start',
+          20
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          20
+        ]
+      },
+      birds: {
+        width: 150,
+        height: 150,
+        end: [
+          'parent',
+          'end',
+          0
+        ],
+        top: [
+          'parent',
+          'top',
+          100
+        ]
+      },
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+        bottom: [
+          'parent',
+          'bottom'
+        ],
+        custom: {
+          background_end: '#191970',
+          background: '#000033'
+        }
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end',
+      pathMotionArc: 'startHorizontal',
+      KeyFrames: {
+        KeyAttributes: [
+          {
+            target: [
+              'sun_moon'
+            ],
+            frames: [
+              0,
+              50,
+              100
+            ],
+            translationY: [
+              0,
+              60,
+              0
+            ],
+          },
+          {
+            target: [
+              'birds'
+            ],
+            frames: [
+              0,
+              50,
+              70,
+              100
+            ],
+            translationY: [
+              0,
+              30,
+              70,
+              100
+            ],
+            alpha: [
+              1,
+              1,
+              1,
+              0
+            ],
+          },
+          {
+            target: [
+              'cloud'
+            ],
+            frames: [
+              0,
+              50,
+              100
+            ],
+            translationY: [
+              0,
+              60,
+              0
+            ],
+            alpha: [
+              1,
+              0,
+              1
+            ],
+          },
+          {
+            target: [
+              'tree_one'
+            ],
+            frames: [
+              50,
+              100
+            ],
+            alpha: [
+              1,
+              0
+            ],
+          },
+          {
+            target: [
+              'stars'
+            ],
+            frames: [
+              0,
+              100
+            ],
+            alpha: [
+              0,
+              1
+            ],
+          }
+        ]
+      }
+    }
+  }
+}
